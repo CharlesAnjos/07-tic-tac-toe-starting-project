@@ -32,7 +32,7 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./build
+          publish_dir: ./dist
 
 
 # main Source code : https://github.com/Mahdi-Hazrati/react-gh-pages-workflows
