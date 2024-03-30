@@ -1,5 +1,8 @@
 name: react gh-pages workflows ✨
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
